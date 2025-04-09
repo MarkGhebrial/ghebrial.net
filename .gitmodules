@@ -1,0 +1,3 @@
+[submodule "zola/themes/anemone"]
+	path = zola/themes/anemone
+	url = https://github.com/Speyll/anemone

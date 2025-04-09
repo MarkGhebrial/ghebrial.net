@@ -1,0 +1,24 @@
+base_url = "https://ghebrial.net"
+theme = "anemone"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# list_pages = "true"
+
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/about", name_en = "/about/" },
+  { url = "/resume.pdf", name_en = "/resume/" },
+  { url = "/projects", name_en = "/projects/" },
+  { url = "/nerf", name_en = "/nerf/" },
+]
