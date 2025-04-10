@@ -10,6 +10,9 @@ I've got a bunch of cool projects on my GitHub page, go check them out!
 You can also find a summary of my projects at [this link](projects).
 For nerf related projects, click [here](nerf)
 
+This website is built with Zola using the anemone theme and hosted on GitHub pages.
+Thank god I found Zola, because Jekyll is borderline unusable for anyone who's not intimately familiar with managing Ruby packages.
+
 ## Where you can find me:
 - [GitHub](https://github.com/MarkGhebrial)
 - [LinkedIn](https://www.linkedin.com/in/MarkGhebrial/)
