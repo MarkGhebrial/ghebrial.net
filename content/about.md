@@ -2,9 +2,9 @@
 template = "page.html"
 title = "About me"
 
-date = 2025-04-09
+# date = 2025-04-09
 
 # url = "fdsafads"
 +++
 
-Hi! This the about me page.
+Hi! This the about me page. There's nothing here yet :(

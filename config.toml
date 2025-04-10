@@ -1,6 +1,9 @@
 base_url = "https://ghebrial.net"
 theme = "anemone"
 
+# The text that appears on a browser tab.
+title = "Mark's Website :)"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
@@ -15,6 +18,7 @@ highlight_code = true
 [extra]
 # list_pages = "true"
 
+# This determines the contents of the navigation header
 header_nav = [
   { url = "/", name_en = "/home/" },
   { url = "/about", name_en = "/about/" },
