@@ -18,6 +18,9 @@ highlight_code = true
 [extra]
 # list_pages = "true"
 
+# Temporary workaround until anemone's default favicon path is fixed.
+favicon = "favicon.ico"
+
 # This determines the contents of the navigation header
 header_nav = [
   { url = "/", name_en = "/home/" },
