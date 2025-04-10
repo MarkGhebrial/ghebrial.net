@@ -2,7 +2,7 @@
 template = "index.html"
 +++
 
-## Hi, welcome to my website!
+# Hi, welcome to my website!
 
 My name is Mark Ghebrial, and I'm a third year Computer Engineering student at [UC Riverside](https://www.ucr.edu/).
 
