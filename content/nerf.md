@@ -1,6 +1,9 @@
 +++
 template = "page.html"
 title = "Nerf things"
+
+[extra]
+toc = true
 +++
 
 I've been heavily involved in the nerf hobby since February of 2024, when I built a [Caliburn 4](https://www.thingiverse.com/thing:5078652) using a hardware kit I got for Christmas.
