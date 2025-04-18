@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "test test"
+title = "test"
 date = 2025-04-10
 
 blurb = "fdsfsa"
@@ -17,6 +17,33 @@ A custom nerf blaster designed for simplicity and low cost.
 A second paragraph
 {% end %}
 
-{% card(img="/minima.webp") %}
-This is the second card.
+fdsfad
+
+{% card() %}
+### Test card
+
+This is the second card. It does not have an image.
+
+a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a 
 {% end %}
+
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+
+{% aside() %}
+#### Note:
+
+This is a note.
+{% end %}
+
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet.

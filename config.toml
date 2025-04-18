@@ -2,7 +2,7 @@ base_url = "https://ghebrial.net"
 theme = "anemine"
 
 # The text that appears on a browser tab.
-title = "Mark's Website :)"
+title = "Mark's Website"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -24,7 +24,7 @@ favicon = "/favicon.ico"
 # This determines the contents of the navigation header
 header_nav = [
   { url = "/", name_en = "/home/" },
-  { url = "/about", name_en = "/about/" },
+  # { url = "/about", name_en = "/about/" },
   { url = "/resume.pdf", name_en = "/resume/" },
   { url = "/projects", name_en = "/projects/" },
   { url = "/nerf", name_en = "/nerf/" },

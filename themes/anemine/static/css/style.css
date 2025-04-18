@@ -130,7 +130,7 @@
 }
 
 .card {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   padding: .125rem;
   border: solid 2px var(--accent);
@@ -138,6 +138,8 @@
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
 }
 
 .card:hover {
@@ -145,16 +147,17 @@
 }
 
 .card-img {
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 30%;
+  min-width: 200px;
+  /* width: min-content; */
+  height: auto;
   height: fit-content;
-
   padding: .125rem;
   border: none;
   border-radius: 12px;
 }
 
-
 .card-content {
   margin-left: 10px;
+  /* max-width: 60%; */
 }

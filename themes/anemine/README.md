@@ -1,4 +1,6 @@
-# anemone
+# anemine
+
+Anemine is my version of the anemone theme, customized to my needs. The rest of the content in this document is from the original anemine README.
 
 Introducing "anemone," a minimalist [Zola](https://www.getzola.org) theme that prioritizes clean CSS and avoids heavy JavaScript. Enjoy a seamless user experience with lightning-fast load times. Let your content take center stage in a clutter-free, elegant design that enhances readability. Responsive and efficient, anemone brings focus to your ideas.
 

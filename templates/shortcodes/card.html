@@ -1,10 +1,14 @@
+{% if img %}
+{% set image = resize_image(path = img | safe, width = 600, height = 500, op = 'fill') %}
+{% endif %}
+
 {% if url %}<a class="no-style" href="{{ url | safe }}">{% endif %}<div class="card">
     {% if img %}
-        <img src="{{ img | safe }}" class="card-img">
+        <img src="{{ image.url }}" class="card-img">
     {% endif %}
 
     <div class="card-content">
-        {{ body | markdown() | safe}}
+        {{ body | markdown() | safe }}
     </div>
 </div>
 {% if url %}</a>{% endif %}
