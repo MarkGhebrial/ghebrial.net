@@ -1,0 +1,10 @@
+{% if url %}<a class="no-style" href="{{ url | safe }}">{% endif %}<div class="card">
+    {% if img %}
+        <img src="{{ img | safe }}" class="card-img">
+    {% endif %}
+
+    <div class="card-content">
+        {{ body | markdown() | safe}}
+    </div>
+</div>
+{% if url %}</a>{% endif %}
