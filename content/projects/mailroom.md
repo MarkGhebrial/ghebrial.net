@@ -3,7 +3,7 @@ template = "page.html"
 title = "mailroom"
 +++
 
-{% aside () %}
+{% aside() %}
 ## Links
 Repository: [GitHub](https://github.com/MarkGhebrial/mailroom)
 {% end %}
