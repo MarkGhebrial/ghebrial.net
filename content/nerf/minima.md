@@ -5,7 +5,7 @@ title = "Minima"
 
 ### Minima
 
-![A picture of Minima](/minima.webp)
+![A picture of Minima](/images/minima.webp)
 
 Minima is a blaster that I designed and prototyped myself, from scratch!
 It's currently on its third (and a half) iteration and will be released as open source once I'm fully satisfied with it.

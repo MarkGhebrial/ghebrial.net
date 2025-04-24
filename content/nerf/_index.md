@@ -8,7 +8,7 @@ Ever since then, I've been hooked on building 3D printed blasters.
 
 Here's a list of some of the cool nerf projects and builds I've made (ordered based on vibes, not chronology):
 
-{% card(img="/minima.webp", url="/nerf/minima") %}
+{% card(img="/images/minima.webp", url="/nerf/minima") %}
 ## Minima
 
 A fully custom nerf blaster designed for simplicity and low cost.
