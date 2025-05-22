@@ -10,8 +10,10 @@ Repository: [GitHub](https://github.com/MarkGhebrial/mailroom)
 
 # mailroom
 
+**Self-hosted email for the masses**
+
 Mailroom is an email server designed for simplicity and quick setup.
-It's still a work in progress, but I intend to finish it and use it to host mark@ghebrial.net.
+It's still a work in progress, but I intend to see it to production readiness.
 
 Mailroom is written in Rust, using tokio as the async backend and sea-orm as the orm.
 
@@ -28,7 +30,7 @@ Going from registering a domain to hosting your own email server should take les
 In scope features:
 
 - **Automatic TLS certificate management.** The user should *never* need to worry about acquiring or renewing certificates unless they opt into more advanced configuration options. Additionally, TLS must be enabled by default.
-- **Simple configuration.** 
+- **Simple configuration.** Defaults should be sensible and work out of the box. No configuration changes required to get a fully functioning email server.
 
 Out of scope features: (may come into scope as the project matures)
 
