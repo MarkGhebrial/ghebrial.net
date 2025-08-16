@@ -28,5 +28,5 @@ header_nav = [
   { url = "/resume.pdf", name_en = "/resume/" },
   { url = "/projects", name_en = "/projects/" },
   { url = "/nerf", name_en = "/nerf/" },
-  { url = "/misc", name_en = "/misc/" },
+  { url = "/photography", name_en = "/photography/" },
 ]

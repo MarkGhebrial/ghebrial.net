@@ -1,6 +1,7 @@
 +++
 template = "page.html"
-title = "Photos from the San Diego Air and Space Museum"
+title = "San Diego Air and Space Museum"
+date = 2025-06-16
 +++
 
 I took these photos at the San Diego Air and Space Museum on June 16, 2025. You may use them according to the terms of the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).

@@ -4,7 +4,7 @@ template = "index.html"
 
 # Hi, welcome to my website!
 
-My name is Mark Ghebrial. I'm a third year Computer Engineering student at [UC Riverside](https://www.ucr.edu/).
+My name is Mark Ghebrial. I'm a fourth year Computer Engineering student at [UC Riverside](https://www.ucr.edu/).
 
 I've got a bunch of cool projects on my GitHub page, go check them out!
 You can also find a summary of my projects at [this link](projects).
