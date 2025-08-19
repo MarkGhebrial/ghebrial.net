@@ -8,7 +8,7 @@ I went for a walk along the OC Streetcar route in downtown Santa Ana to shoot my
 first roll of film. I used my Nikon FM, a 50mm f1.8 prime lens, and Fujifilm 400
 ISO film.
 
-Here are my favorites:
+Here are my favorite shots:
 ![](/images/downtown-santa-ana/39773013246-R1-063-30.jpg)
 
 ![](/images/downtown-santa-ana/39773013246-R1-065-31.jpg)
@@ -18,8 +18,6 @@ Here are my favorites:
 ![](/images/downtown-santa-ana/39773013246-R1-051-24.jpg)
 
 ![](/images/downtown-santa-ana/39773013246-R1-059-28.jpg)
-
-![](/images/downtown-santa-ana/39773013246-R1-041-19.jpg)
 
 And here are the rest (in chronological order):
 ![](/images/downtown-santa-ana/39773013246-R1-031-14.jpg)
@@ -31,6 +29,8 @@ And here are the rest (in chronological order):
 ![](/images/downtown-santa-ana/39773013246-R1-037-17.jpg)
 
 ![](/images/downtown-santa-ana/39773013246-R1-039-18.jpg)
+
+![](/images/downtown-santa-ana/39773013246-R1-041-19.jpg)
 
 ![](/images/downtown-santa-ana/39773013246-R1-043-20.jpg)
 
