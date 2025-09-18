@@ -43,9 +43,9 @@ Like many of my projects, I built pongd in order to learn how the underlying tec
 ## imascii
 
 A command line utility for converting images to ascii art, written in Python.
-Built in 12 hours for [Cutiehack](https://cutiehack.com/) 2022.
+Built in 12 hours for Cutiehack 2022.
 {% end %}
-
+<!-- TODO: Adding links in card blurbs does not work. Once that's fixed, add a link to https://cutiehack.com to this card -->
 
 {% card(url="https://github.com/MarkGhebrial/BrainFudge") %}
 ## BrainFudge

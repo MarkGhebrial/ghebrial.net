@@ -23,7 +23,7 @@ The board layout was a little more interesting.
 The cheapo Amazon RFID readers we got were quite large (about 40mm by 60mm), and had an eight pin male header soldered on one end.
 To reduce board area, I initially planned to put the Pico on the backside of the board, opposite to the RFID reader.
 Eventually, I realized that there's enough space between the board and the reader to comfortably accommodate the Pico.
-That meant that the board could be thinner, and that the micro USB port could be right-side-up.
+That meant that overall assembly could be thinner, and that the micro USB port could be right-side-up.
 
 That revelation allowed me to make the board only barely larger than the RFID reader (the large rectangle on the silkscreen is the RFID reader's footprint):
 
