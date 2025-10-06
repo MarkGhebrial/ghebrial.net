@@ -30,6 +30,12 @@ An opencv based application for quantifying the accuracy of nerf blasters.
 Features a GUI made with egui.
 {% end %}
 
+{% card(url="https://github.com/MarkGhebrial/sdnc") %}
+## sandiegonerfclub.org
+
+A custom made website with a Bootstrap based frontend and an axum based backend.
+{% end %}
+
 
 {% card(url="https://github.com/MarkGhebrial/pongd") %}
 ## pongd
