@@ -7,10 +7,10 @@ date = 2025-10-12
 I attended a relative's wedding and took more than 900 photos. Here are the best
 ones.
 
-These photos are not Creative Commons licensed. You may not use them for any purpose
-unless I give you permission.
+All of these photos were taken on my Nikon D5600. I used my 50mm f1.8 lens for most
+of the wedding, but switched to my 18-55mm lens for some of the wider shots at the reception.
 
-![](MG5_0013.jpg)
+You may not use these photos for any purpose without my explicit, written permission.
 
 ![](MG5_0881.jpg)
 
@@ -26,13 +26,9 @@ unless I give you permission.
 
 ![](MG5_1157.jpg)
 
-![](MG5_1184.jpg)
-
 ![](MG5_1185.jpg)
 
 ![](MG5_1206.jpg)
-
-![](MG5_1217.jpg)
 
 ![](MG5_1241.jpg)
 
@@ -57,3 +53,5 @@ unless I give you permission.
 ![](MG5_1671.jpg)
 
 ![](MG5_1734.jpg)
+
+![](MG5_0013.jpg)
