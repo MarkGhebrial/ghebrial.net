@@ -4,22 +4,14 @@ title = "Projects"
 +++
 
 Here's a curated list of some of the programming projects I've worked on.
-For a complete list, take a look at my [GitHub](https://github.com/MarkGhebrial/repositories) page.
+For a complete list, take a look at my [GitHub](https://github.com/MarkGhebrial?tab=repositories) profile.
 
-Most of these projects are unfinished, but the true value of these projects are the skills they've taught me.
+Many of these projects are unfinished, but the true value of these projects are the skills they've taught me.
 
 {% card(url="/projects/mailroom") %}
 ## mailroom
 
-A from-scratch email server, written in Rust.
-{% end %}
-
-
-{% card(url="/projects/frc") %}
-## FIRST Robotics Competition
-
-Led FRC team 3309's programming team for three years.
-I learned *a lot* of skills from FRC.
+A simple and modern email server, written from scratch in Rust.
 {% end %}
 
 
@@ -30,10 +22,33 @@ An opencv based application for quantifying the accuracy of nerf blasters.
 Features a GUI made with egui.
 {% end %}
 
+
 {% card(url="https://github.com/MarkGhebrial/sdnc") %}
 ## sandiegonerfclub.org
 
 A custom made website with a Bootstrap based frontend and an axum based backend.
+{% end %}
+
+
+{% card(img="/images/tachometer.png", url="https://github.com/MarkGhebrial/nerf-tachometer-board") %}
+## Nerf Flywheel Tachometer PCB
+
+A simple PCB for measuring the speed of flywheels in a nerf blaster.
+{% end %}
+
+
+{% card(img="/images/pad-controller.png", url="https://github.com/Highlander-Space-Program/pad-controller-pcb") %}
+## Launch Pad Controller PCB
+
+I designed a PCB for controlling the Highlander Space Program static fire launch pad.
+{% end %}
+
+
+{% card(img="/projects/raytracer/images/30.png", url="/projects/raytracer") %}
+## Ray Tracer
+
+As part of a project in my computer graphics class, I implemented a basic ray tracing
+program.
 {% end %}
 
 
@@ -58,6 +73,13 @@ Built in 12 hours for Cutiehack 2022.
 
 An simple interpreter and REPL for Brainf*ck, written in Rust.
 One of my first Rust projects.
+{% end %}
+
+
+{% card(url="https://github.com/MarkGhebrial/Monopoly-simulator") %}
+## Monopoly Simulator
+
+A quick and dirty python script I wrote to find the most visited properties in Monopoly.
 {% end %}
 
 

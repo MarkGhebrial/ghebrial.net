@@ -5,13 +5,15 @@ title = "Photography"
 
 ## My cameras
 
-As of September 2025, I have three cameras: A [Nikon D5600](https://en.wikipedia.org/wiki/Nikon_D5600), a [Nikon FM](https://en.wikipedia.org/wiki/Nikon_FM), and an [Olympus OM30](https://en.wikipedia.org/wiki/Olympus_OM_system#OM-30).
+I have three cameras: A [Nikon D5600](https://en.wikipedia.org/wiki/Nikon_D5600),
+a [Nikon FM](https://en.wikipedia.org/wiki/Nikon_FM), and an
+[Olympus OM30](https://en.wikipedia.org/wiki/Olympus_OM_system#OM-30).
 
 The D5600 is a an entry level APS-C DSLR. It's a super light and comfortable camera
 when paired with the kit lens, so I use it when I want a digital camera that's
 effortless to carry around.
 
-The FM is a mechanical 35mm film SLR from the 70's. I bought it used in August of 2025.
+The FM is a fully mechanical 35mm film SLR from the 70's that I bought used in August of 2025.
 It's a heavy and well built camera, but is slightly uncomfortable to hold
 due to the lack of scooped grip. I may attempt to design a grip for it in the future.
 
