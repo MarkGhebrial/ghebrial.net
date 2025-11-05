@@ -2,6 +2,9 @@
 template = "page.html"
 title = "Lydia and Youssef's Wedding"
 date = 2025-10-12
+
+[taxonomies]
+gallery_categories = ["wedding", "event"]
 +++
 
 I attended a relative's wedding and took more than 900 photos. Here are the best

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="content-section">
+    <p>{{ taxonomy.name }}</p>
+
+    <section class="content-section">
+    {% for term in terms %}
+        <li class="title-list">
+           {{ term.name }}
+
+            <a href="{{ term.permalink }}" class="content-link">
+                {{ term.name }}
+            </a>
+        </li>
+    {% endfor %}
+    </section>
+</section>
+{% endblock %}

@@ -3,6 +3,16 @@ template = "section.html"
 title = "Photography"
 +++
 
+## My Photos
+
+The pages linked below contain some of the photographs I've taken. They may take
+a few moments to load because they contain high resolution images.
+
+Unless noted otherwise, you may use my photos in accordance
+with the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
+
+{{ page_list() }}
+
 ## My cameras
 
 As of September 2025, I have three cameras: A [Nikon D5600](https://en.wikipedia.org/wiki/Nikon_D5600), a [Nikon FM](https://en.wikipedia.org/wiki/Nikon_FM), and an [Olympus OM30](https://en.wikipedia.org/wiki/Olympus_OM_system#OM-30).
@@ -38,11 +48,3 @@ Autofocus lenses:
 Manual focus lenses:
  - **Nikon 50mm f1.8**. A very small and lightweight 50mm prime. This lens came with my FM and pretty much stays on that camera at all times. It's also compatible with my D5600, but it's not very useful on that camera because the D5600 doesn't support light metering with AI lenses.
  - **Tamron Adaptall 2 35-70mm f3.5-4.5**. This is the lens my grandfather gave me with the OM30. According to him, it's a very sharp lens. Compared to my Nikon 50mm, the aperture ring is much mushier. Additionally, it's very difficult to distinguish the zoom and aperture rings by touch.
-
-## My Photos
-
-The articles linked below contain some of the photographs I've taken. They may take
-a few moments to load because they contain high resolution images.
-
-Unless noted otherwise, you may use my photos in accordance
-with the [Creative Commons Attribution-ShareAlike 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).

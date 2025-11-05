@@ -2,6 +2,10 @@
 template = "page.html"
 title = "San Clemente Beach"
 date = 2025-09-12
+
+# TODO: fix these categories
+[taxonomies]
+gallery_categories = ["wedding", "event"]
 +++
 
 On September 12th, 2025, I hung out with my friends at San Clemente Beach. These
