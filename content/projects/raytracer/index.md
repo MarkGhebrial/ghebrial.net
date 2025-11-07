@@ -6,23 +6,25 @@ title = "Ray Tracer"
 # Ray Tracer
 
 ## CS 130
-I took UC Riverside's undergraduate Computer Graphics class (CS130) in the Fall of 2025.
-In my opinion, CS130 is easily the best computer science class at the entire university. 
+I took UC Riverside's undergraduate Computer Graphics class (CS130) in the Fall
+of 2025. This ray tracer was the first project we were assigned in that class.
+
+In my opinion, CS130 is *the best* computer science class at the entire university. 
 It's taught by [Craig Schroeder](https://www.cs.ucr.edu/~craigs/), who is an
 excellent professor. His teaching assistant is also extremely good.
 
 ## The Project
-The first project in the class was a simple CPU-run ray tracer. Due to the
-class's academic integrity policy, I cannot publish the code I wrote for the 
-project. I've considered getting around that restriction by reimplementing the
-project in a different language, but I haven't followed through with that idea
-yet. Instead, I'll just show and explain some of the scenes that it can render.
-
 The professor gave us a project template that included all the code necessary to
-get started quickly; all the stuff for input parsing and vector arithmetic was already
-implemented for us. All we had to do was implement the actual ray tracing math.
+get started quickly. All the boilerplate for input parsing and vector arithmetic
+was already implemented for us. Our assignment was to implement the actual ray
+tracing math.
 
-The project is written in C++.
+Due to the class's academic integrity policy, I cannot publish the code I wrote
+for the project. I could get around that restriction by reimplementing the
+entire project in a different language, but I don't currently have enough spare
+time for that.
+
+Instead, I'll just show and explain some of the scenes that it can render.
 
 We started the project by implementing the algorithm for casting rays from the 
 camera, as well as the algorithm for ray-sphere intersections. That let us render
@@ -49,5 +51,8 @@ Finally, we extended the program beyond rendering spheres and into the realm of
 meshes:
 ![](images/38.png)
 
-We also implemented UV texture mapping:
+We also implemented UV texture mapping. By this point in the project, I had
+learned the importance of working out all the math on paper *before* ever touching
+the code. That made the process of implementing meshes and UV mapping very
+straightforward. (I nearly got my implementation right on the first try!):
 ![](images/48.png)
