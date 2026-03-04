@@ -1,6 +1,7 @@
 +++
 template = "section.html"
 title = "Photography"
+sort_by = "date"
 +++
 
 ## My cameras

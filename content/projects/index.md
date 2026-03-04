@@ -1,12 +1,20 @@
 +++
-template = "section.html"
+template = "page.html"
 title = "Projects"
 +++
 
+# Projects
+
 Here's a curated list of some of the programming projects I've worked on.
-For a complete list, take a look at my [GitHub](https://github.com/MarkGhebrial?tab=repositories) profile.
+For a complete list, take a look at [my GitHub profile](https://github.com/MarkGhebrial?tab=repositories).
 
 Many of these projects are unfinished, but the true value of these projects are the skills they've taught me.
+
+{% card(url="https://github.com/MarkGhebrial/lobotomy") %}
+## lobotomy
+
+A programming language that compiles to Brainf*ck.
+{% end %}
 
 {% card(url="/projects/mailroom") %}
 ## mailroom

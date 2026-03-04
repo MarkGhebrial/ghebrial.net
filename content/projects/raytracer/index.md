@@ -20,11 +20,12 @@ was already implemented for us. Our assignment was to implement the actual ray
 tracing math.
 
 Due to the class's academic integrity policy, I cannot publish the code I wrote
-for the project. I could get around that restriction by reimplementing the
-entire project in a different language, but I don't currently have enough spare
-time for that.
+for the project. I began reimplementing the project in a different language (Rust)
+to get around this restriction. The professor gave me permission to publish my Rust
+code, but I have not done so yet.
 
-Instead, I'll just show and explain some of the scenes that it can render.
+Instead of sharing the code, I'll just show and explain some of the scenes that
+it can render.
 
 We started the project by implementing the algorithm for casting rays from the 
 camera, as well as the algorithm for ray-sphere intersections. That let us render

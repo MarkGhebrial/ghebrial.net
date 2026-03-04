@@ -4,12 +4,12 @@ template = "index.html"
 
 # Hi, welcome to my website!
 
-My name is Mark Ghebrial. I'm a fourth year Computer Engineering student at [UC Riverside](https://www.ucr.edu/).
+My name is Mark Ghebrial. I'm a fourth year Computer Engineering student at 
+[UC Riverside](https://www.ucr.edu/).
 
-<!-- I've got a bunch of cool projects on my GitHub page, go check them out! -->
-If you want to see all my software projects, go check out my GitHub page.
-You can also find a summary of my projects at [this link](projects).
-For nerf related projects, click [here](nerf).
+On this site, you can find [a summary of my software projects](/projects). For a
+complete list, go check out [my GitHub page](https://github.com/MarkGhebrial?tab=repositories). You can also check out [my resume](/resume.pdf), [my nerf projects](/nerf),
+or [my photos](/photography).
 
 ## Where you can find me:
 - [GitHub](https://github.com/MarkGhebrial)
