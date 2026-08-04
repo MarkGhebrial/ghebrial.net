@@ -10,6 +10,12 @@ For a complete list, take a look at [my GitHub profile](https://github.com/MarkG
 
 Many of these projects are unfinished, but the true value of these projects are the skills they've taught me.
 
+{% card(url="https://github.com/MarkGhebrial/zognorp") %}
+## zognorp
+
+A _very_ fast sudoku solver.
+{% end %}
+
 {% card(url="https://github.com/MarkGhebrial/lobotomy") %}
 ## lobotomy
 
@@ -19,7 +25,7 @@ A programming language that compiles to Brainf*ck.
 {% card(url="/projects/mailroom") %}
 ## mailroom
 
-A simple and modern email server, written from scratch in Rust.
+A simple and modern email server, written from scratch in Rust. (incomplete)
 {% end %}
 
 
