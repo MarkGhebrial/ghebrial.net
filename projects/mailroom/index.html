@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ghebrial.net/rss.xml">
+        
+        <title>Mark&#x27;s Website | mailroom</title>
+
+        <link rel="preload" href="https://ghebrial.net/css/style.css" as="style">
+        <link rel="stylesheet" href="https://ghebrial.net/css/reset.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/suCSS.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/style.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/custom.css">
+
+        <!-- Add favicon with appropriate sizes -->
+        <link rel="icon" href="&#x2F;favicon.ico">
+    </head>
+    <body>
+        
+        
+        
+        
+        <nav id="nav-bar">
+            
+            <a href="&#x2F;" class="">
+                
+                &#x2F;home&#x2F;
+            </a>
+            
+            <a href="&#x2F;resume.pdf" class="">
+                
+                &#x2F;resume&#x2F;
+            </a>
+            
+            <a href="&#x2F;projects" class="">
+                
+                &#x2F;projects&#x2F;
+            </a>
+            
+            <a href="&#x2F;nerf" class="">
+                
+                &#x2F;nerf&#x2F;
+            </a>
+            
+            <a href="&#x2F;photography" class="">
+                
+                &#x2F;photography&#x2F;
+            </a>
+            
+
+            <div class="theme-toggle" id="theme-toggle" role="button" tabindex="0" aria-label="Toggle theme"
+                data-icon-base="https://ghebrial.net/icons.svg"
+                data-icon-dark="#darkMode"
+                data-icon-light="#lightMode"
+                data-sound-src="https://ghebrial.net/click.ogg">
+                <svg class="icon">
+                    <use id="theme-icon"></use>
+                </svg>
+            </div>
+        </nav>
+
+        <main>
+            
+<article class="post">
+    <header class="post-header">
+        
+
+        
+
+        <!-- <h1>mailroom</h1> -->
+    </header>
+
+
+
+    <div class="post-content">
+        <aside>
+    <h2 id="links">Links</h2>
+<p>Repository: <a rel="external" href="https://github.com/MarkGhebrial/mailroom">GitHub</a></p>
+
+</aside><h1 id="mailroom">mailroom</h1>
+<p><strong>Self-hosted email for the masses</strong></p>
+<p>Mailroom is an email server designed for simplicity and quick setup.
+It's still a work in progress, but I intend to see it to production readiness.</p>
+<p>Mailroom is written in Rust, using tokio as the async backend and sea-orm as the orm.</p>
+<h2 id="why">Why?</h2>
+<p>I began working on mailroom because I wanted to learn how email works.
+No amount of reading can replace learning by doing.</p>
+<h2 id="design-philosophy">Design Philosophy</h2>
+<p>The #1 design goal for mailroom is to be extremely simple to set up and administrate.
+Going from registering a domain to hosting your own email server should take less than 20 minutes.</p>
+<p>In scope features:</p>
+<ul>
+<li><strong>Automatic TLS certificate management.</strong> The user should <em>never</em> need to worry about acquiring or renewing certificates unless they opt into more advanced configuration options. Additionally, TLS must be enabled by default.</li>
+<li><strong>Simple configuration.</strong> Defaults should be sensible and work out of the box. No configuration changes required to get a fully functioning email server.</li>
+</ul>
+<p>Out of scope features: (may come into scope as the project matures)</p>
+<ul>
+<li><strong>Web administration interface.</strong> Designing a web-based interface for administrating mailroom would increase complexity and project scope beyond what I want to undertake.</li>
+<li><strong>Email client.</strong> Mailroom is only an email server, <em>not</em> a client. To read and send emails through mailroom, users must use a separate email client such as Thunderbird.</li>
+</ul>
+
+    </div>
+
+    
+</article>
+
+        </main>
+
+        <footer>
+            <hr>
+<div id="footer-container">
+    <p>© 2026 Mark Ghebrial</p>
+    <p><a href="https://github.com/MarkGhebrial/ghebrial.net">Source code for this site</a></p>
+</div>
+
+        </footer>
+
+        <!-- Move JS to end of body and add defer -->
+        <script src="https://ghebrial.net/js/script.js" defer></script>
+    </body>
+</html>

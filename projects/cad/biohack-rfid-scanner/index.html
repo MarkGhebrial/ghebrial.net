@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ghebrial.net/rss.xml">
+        
+        <title>Mark&#x27;s Website | BioHack RFID scanner</title>
+
+        <link rel="preload" href="https://ghebrial.net/css/style.css" as="style">
+        <link rel="stylesheet" href="https://ghebrial.net/css/reset.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/suCSS.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/style.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/custom.css">
+
+        <!-- Add favicon with appropriate sizes -->
+        <link rel="icon" href="&#x2F;favicon.ico">
+    </head>
+    <body>
+        
+        
+        
+        
+        <nav id="nav-bar">
+            
+            <a href="&#x2F;" class="">
+                
+                &#x2F;home&#x2F;
+            </a>
+            
+            <a href="&#x2F;resume.pdf" class="">
+                
+                &#x2F;resume&#x2F;
+            </a>
+            
+            <a href="&#x2F;projects" class="">
+                
+                &#x2F;projects&#x2F;
+            </a>
+            
+            <a href="&#x2F;nerf" class="">
+                
+                &#x2F;nerf&#x2F;
+            </a>
+            
+            <a href="&#x2F;photography" class="">
+                
+                &#x2F;photography&#x2F;
+            </a>
+            
+
+            <div class="theme-toggle" id="theme-toggle" role="button" tabindex="0" aria-label="Toggle theme"
+                data-icon-base="https://ghebrial.net/icons.svg"
+                data-icon-dark="#darkMode"
+                data-icon-light="#lightMode"
+                data-sound-src="https://ghebrial.net/click.ogg">
+                <svg class="icon">
+                    <use id="theme-icon"></use>
+                </svg>
+            </div>
+        </nav>
+
+        <main>
+            
+<article class="post">
+    <header class="post-header">
+        
+
+        
+
+        <!-- <h1>BioHack RFID scanner</h1> -->
+    </header>
+
+
+
+    <div class="post-content">
+        <h1 id="biohack-rfid-card-scanner">BioHack rfid card scanner</h1>
+<p>As part of UCR's cybersecurity club, I designed a PCB and enclosure for an RFID reader and Raspberry Pi Pico.
+It was used to check attendees into the various workshops at UCR's <a rel="external" href="https://biohack-2023.devpost.com/">2023 BioHack hackathon</a>.</p>
+<p>The Pi Pico's communicated with a laptop using USB serial.
+A program running on the laptop read card IDs from the card reader and uploaded them to a database for counting workshop attendance.</p>
+<p>I'm writing this page almost exactly two years after I finished this project, and I'm not in possession of any of the physical readers I built, so you'll have to excuse the lack of images.
+Hopefully CAD screenshots will do.</p>
+<h2 id="the-pcb">The PCB</h2>
+<p>The PCB schematic is nothing special; it's simply a one to one clone of the wiring on the breadboard prototype, with the addition of two status LEDs.</p>
+<p>The board layout was a little more interesting.</p>
+<p>The cheapo Amazon RFID readers we got were quite large (about 40mm by 60mm), and had an eight pin male header soldered on one end.
+To reduce board area, I initially planned to put the Pico on the backside of the board, opposite to the RFID reader.
+Eventually, I realized that there's enough space between the board and the reader to comfortably accommodate the Pico.
+That meant that overall assembly could be thinner, and that the micro USB port could be right-side-up.</p>
+<p>That revelation allowed me to make the board only barely larger than the RFID reader (the large rectangle on the silkscreen is the RFID reader's footprint):</p>
+<p><img src="/images/biohack-reader/pcb-front.png" alt="A screenshot of the 3D model of the PCB" /></p>
+<p>As you can tell, I didn't really care about silkscreen overlaps on this project.
+If I were to go back in time and redo this design, I definitely would change that.</p>
+<p>And, for good measure, here's the back of the board. The only traces on this side are for the LEDs:</p>
+<p><img src="/images/biohack-reader/pcb-back.png" alt="A screenshot of the 3D model of the PCB" /></p>
+<p>I downloaded the Raspberry Pi Pico footprint from somewhere online, I made the RFID reader footprint myself, and the LED and resistor footprints are from the KiCAD library.</p>
+<h2 id="the-enclosure">The enclosure</h2>
+<p>A bare PCB is not a very user friendly product, so I designed a compact 3D printed enclosure using Onshape.
+The enclosure went through quite a few iterations before reaching the final version.</p>
+<p>All versions of the enclosure use three M3x8mm screws which sandwich the PCB between the enclosure halves.</p>
+<p>TODO: Finish this section.</p>
+
+    </div>
+
+    
+</article>
+
+        </main>
+
+        <footer>
+            <hr>
+<div id="footer-container">
+    <p>© 2026 Mark Ghebrial</p>
+    <p><a href="https://github.com/MarkGhebrial/ghebrial.net">Source code for this site</a></p>
+</div>
+
+        </footer>
+
+        <!-- Move JS to end of body and add defer -->
+        <script src="https://ghebrial.net/js/script.js" defer></script>
+    </body>
+</html>

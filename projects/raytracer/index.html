@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="https://ghebrial.net/rss.xml">
+        
+        <title>Mark&#x27;s Website | Ray Tracer</title>
+
+        <link rel="preload" href="https://ghebrial.net/css/style.css" as="style">
+        <link rel="stylesheet" href="https://ghebrial.net/css/reset.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/suCSS.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/style.css">
+        <link rel="stylesheet" href="https://ghebrial.net/css/custom.css">
+
+        <!-- Add favicon with appropriate sizes -->
+        <link rel="icon" href="&#x2F;favicon.ico">
+    </head>
+    <body>
+        
+        
+        
+        
+        <nav id="nav-bar">
+            
+            <a href="&#x2F;" class="">
+                
+                &#x2F;home&#x2F;
+            </a>
+            
+            <a href="&#x2F;resume.pdf" class="">
+                
+                &#x2F;resume&#x2F;
+            </a>
+            
+            <a href="&#x2F;projects" class="">
+                
+                &#x2F;projects&#x2F;
+            </a>
+            
+            <a href="&#x2F;nerf" class="">
+                
+                &#x2F;nerf&#x2F;
+            </a>
+            
+            <a href="&#x2F;photography" class="">
+                
+                &#x2F;photography&#x2F;
+            </a>
+            
+
+            <div class="theme-toggle" id="theme-toggle" role="button" tabindex="0" aria-label="Toggle theme"
+                data-icon-base="https://ghebrial.net/icons.svg"
+                data-icon-dark="#darkMode"
+                data-icon-light="#lightMode"
+                data-sound-src="https://ghebrial.net/click.ogg">
+                <svg class="icon">
+                    <use id="theme-icon"></use>
+                </svg>
+            </div>
+        </nav>
+
+        <main>
+            
+<article class="post">
+    <header class="post-header">
+        
+
+        
+
+        <!-- <h1>Ray Tracer</h1> -->
+    </header>
+
+
+
+    <div class="post-content">
+        <h1 id="ray-tracer">Ray Tracer</h1>
+<h2 id="cs-130">CS 130</h2>
+<p>I took UC Riverside's undergraduate Computer Graphics class (CS130) in the Fall
+of 2025. This ray tracer was the first project we were assigned in that class.</p>
+<p>In my opinion, CS130 is <em>the best</em> computer science class at the entire university.
+It's taught by <a rel="external" href="https://www.cs.ucr.edu/~craigs/">Craig Schroeder</a>, who is an
+excellent professor. His teaching assistant is also extremely good.</p>
+<h2 id="the-project">The Project</h2>
+<p>The professor gave us a project template that included all the code necessary to
+get started quickly. All the boilerplate for input parsing and vector arithmetic
+was already implemented for us. Our assignment was to implement the actual ray
+tracing math.</p>
+<p>Due to the class's academic integrity policy, I cannot publish the code I wrote
+for the project. I began reimplementing the project in a different language (Rust)
+to get around this restriction. The professor gave me permission to publish my Rust
+code, but I have not done so yet.</p>
+<p>Instead of sharing the code, I'll just show and explain some of the scenes that
+it can render.</p>
+<p>We started the project by implementing the algorithm for casting rays from the
+camera, as well as the algorithm for ray-sphere intersections. That let us render
+flat scenes like this:
+<img src="https://ghebrial.net/projects/raytracer/images/01.png" alt="" /></p>
+<p>Then we implemented the <a rel="external" href="https://en.wikipedia.org/wiki/Phong_shading">Phong shader</a>
+for basic diffuse and specular lighting. This was the most difficult stage of the
+project for me. Not because the math is hard, but because I hadn't yet developed
+the intuition for debugging vector math. Also because I didn't realize that the
+Blinn-Phong model is not equivalent to the Phong model (I spent at least an hour
+scratching my head trying to figure out why my specular reflections were
+ever-so-slightly wrong):
+<img src="https://ghebrial.net/projects/raytracer/images/13.png" alt="" /></p>
+<p>The whole point of a ray tracer is to be able to accurately render reflections
+and refractions, so that was the next stage of the project:
+<img src="https://ghebrial.net/projects/raytracer/images/29.png" alt="" /></p>
+<p>Handling different indexes of refraction is trivial:
+<img src="https://ghebrial.net/projects/raytracer/images/30.png" alt="" /></p>
+<p>Finally, we extended the program beyond rendering spheres and into the realm of
+meshes:
+<img src="https://ghebrial.net/projects/raytracer/images/38.png" alt="" /></p>
+<p>We also implemented UV texture mapping. By this point in the project, I had
+learned the importance of working out all the math on paper <em>before</em> ever touching
+the code. That made the process of implementing meshes and UV mapping very
+straightforward. (I nearly got my implementation right on the first try!):
+<img src="https://ghebrial.net/projects/raytracer/images/48.png" alt="" /></p>
+
+    </div>
+
+    
+</article>
+
+        </main>
+
+        <footer>
+            <hr>
+<div id="footer-container">
+    <p>© 2026 Mark Ghebrial</p>
+    <p><a href="https://github.com/MarkGhebrial/ghebrial.net">Source code for this site</a></p>
+</div>
+
+        </footer>
+
+        <!-- Move JS to end of body and add defer -->
+        <script src="https://ghebrial.net/js/script.js" defer></script>
+    </body>
+</html>
