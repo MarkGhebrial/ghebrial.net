@@ -9,6 +9,8 @@
         {% endblock %}
         <title>{{ config.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
+        {% block head %}{% endblock %}
+
         <link rel="preload" href="{{ get_url(path='css/style.css') }}" as="style">
         <link rel="stylesheet" href="{{ get_url(path='css/reset.css') }}">
         <link rel="stylesheet" href="{{ get_url(path='css/suCSS.css') }}">
