@@ -10,6 +10,8 @@ On this site, you can find [a summary of my software projects](/projects). For a
 complete list, go check out [my GitHub page](https://github.com/MarkGhebrial?tab=repositories). You can also check out [my resume](/resume.pdf), [my nerf projects](/nerf),
 or [my photos](/photography).
 
+Looking for Michael Ghebrial? His site is at [michael.ghebrial.net](https://michael.ghebrial.net).
+
 ## Where you can find me:
 - [GitHub](https://github.com/MarkGhebrial)
 - [LinkedIn](https://www.linkedin.com/in/MarkGhebrial/)
